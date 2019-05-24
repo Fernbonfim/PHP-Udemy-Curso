@@ -1,10 +1,17 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <p>Hello Worldd!!</p>
-  </body>
-</html>
+<?php
+
+$nome = "fernando";
+$sobrenome = "bonfim";
+
+echo $nome . " " . $sobrenome;
+
+exit;
+// unset ($nome);
+// isset($nome);
+if (isset($sobrenome, $nome )){
+    echo "$nome", " $sobrenome";
+
+}
+
+
+?>
