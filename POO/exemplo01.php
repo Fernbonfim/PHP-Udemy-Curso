@@ -15,5 +15,3 @@
     $glaucio = new Pessoa;
     $glaucio ->nome = "Glaucio Daniel";
     echo $glaucio -> falar();
-
- ?>
